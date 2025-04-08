@@ -1,8 +1,6 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
-<h3>Name: Saravanan N</h3>
-<h3>Register Number/Staff Id: TSML006</h3>
-
-
+<h3>Name: Meiyarasi . V </h3>
+<h3>Register Number: 212221230058 
 <h3>AIM:</h3>
 <br>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
@@ -40,11 +38,14 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
-##Program
-```
+  
+# PROGRAM :
+~~~
 import random
 ROOMS = ["Room 1", "Room 2"]
 FEVER_THRESHOLD = 98.5
+
+# Initialize environment: random temperatures for two patients
 environment = {
     "Room 1": round(random.uniform(97.0, 101.0), 1),
     "Room 2": round(random.uniform(97.0, 101.0), 1)
@@ -80,8 +81,12 @@ for room in ROOMS:
 print("\nSimulation Complete!")
 print(f"Final Performance Score: {performance_score}")
 print("Environment State:", environment)
-```
-##Output
-![image](https://github.com/user-attachments/assets/a6d9ec50-f5a1-4534-9ec2-ba60f6539833)
-##Result:
-Thus,an AI agent is developed.
+
+~~~
+
+# OUTPUT 
+![image](https://github.com/user-attachments/assets/2ecdc526-c99d-4c0d-853e-18ace11d5678)
+
+
+# RESULT :
+Thus, an AI agent is developed.
