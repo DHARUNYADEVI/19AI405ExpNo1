@@ -1,6 +1,6 @@
 <h1>ExpNo 1 :Developing AI Agent with PEAS Description</h1>
-<h3>Name: Meiyarasi . V </h3>
-<h3>Register Number: 212221230058 
+<h3>Name: Dharunyadevi.S</h3>
+<h3>Register Number: 212223220018
 <h3>AIM:</h3>
 <br>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
@@ -44,8 +44,6 @@
 import random
 ROOMS = ["Room 1", "Room 2"]
 FEVER_THRESHOLD = 98.5
-
-# Initialize environment: random temperatures for two patients
 environment = {
     "Room 1": round(random.uniform(97.0, 101.0), 1),
     "Room 2": round(random.uniform(97.0, 101.0), 1)
